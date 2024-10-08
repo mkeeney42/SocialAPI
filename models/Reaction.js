@@ -2,7 +2,7 @@
 const { Schema, Types } = require('mongoose');
 
 // Define the Reaction schema
-const reactionSchema = new Schema(
+const Reaction = new Schema(
     {
         reactionId: {
             type: Types.ObjectId, // Use Mongoose's ObjectId data type
@@ -31,7 +31,7 @@ const reactionSchema = new Schema(
     }
 );
 
-module.exports = reactionSchema; // Export the Reaction schema
+module.exports = Reaction;
 
 
 
